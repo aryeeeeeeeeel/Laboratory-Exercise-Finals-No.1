@@ -1,4 +1,4 @@
-public class Person {
+public class Person {   //superclass
     private String name;
     private int yearOfBirth;
 
@@ -25,6 +25,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person [name=" + name + ", yearOfBirth=" + yearOfBirth + "]";
+        return "Person [Name=" + name + ", YearOfBirth=" + yearOfBirth + "]";
     }
 }
